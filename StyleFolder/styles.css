@@ -1,0 +1,29 @@
+h4{
+    color: blueviolet;
+    font-size: small;
+}
+div{
+    font-size: arial; 
+    font-size: 25px;
+    background-color:gainsboro;
+    padding-left: 5%;
+}
+table ,td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*solid | dotted*/
+}
+table{
+
+    width: 70%;
+}
+#top{
+    font-size: 15px;
+    background-color:green; 
+    padding-top: 50px;
+}
+.name{
+    font-style: oblique;
+    font-weight: bold;
+}
+/* "#" for ID | "." for Class*/
