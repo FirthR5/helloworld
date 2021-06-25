@@ -9,14 +9,30 @@
             ol>li{
                 color: blue;
             }
+            input[type=number]{
+                background-color: yellow;
+            }
+            input[type=name]{
+                background-color: brown;
+            }
+            a::before{
+                content: "\21d2 Click here:";   
+                font-weight: bold;
+            }
+            p::selection{
+                color:blueviolet;
+                background-color: aqua;
+            }
         </style>
     </head>
     <body>
         <div>
 
             <ul> 
+                <li><a  href="HelloWorld.html">Home</a></li>
                 <li><a href="#section1">Section 1</a></li>
                 <li><a href="#section2">Section 2</a></li>
+                <li><a href="#">one link</a></li>
             </ul>
             <h2 id="section1">Section 1</h2>
             <p>What is Lorem Ipsum?
@@ -60,5 +76,11 @@
                 <li>List item Three</li>
             </ol>
         </div>
+        <div>
+            <input name="name" type="name" placeholder="First Name">
+            <input name="name" type="name" placeholder="Last Name">
+            <input name="name" type="number" placeholder="Age">
+        </div>
+        
         </body>
 </html>

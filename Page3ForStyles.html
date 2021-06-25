@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Page3ForStyles</title>
+        <link rel="stylesheet" href="StyleFolder\Styles_3.css">
+        <style>@media print{
+            .screen-only{display: none;}
+        }
+        </style>
+        <style>
+            @media(min-width: 1000px)
+            {
+                body{
+                background-color:red;
+                }
+                h1::before{content:"Welcome User. ";}
+                
+            }
+            @media(max-width: 600px)
+            {
+                body
+                {
+                    background-color: blue;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <p>Hellow again</p>
+        <div class="screen-only">
+            <h2>Welcome to my WebPage again</h1>
+            <p>This is a paragraph</p>
+            <p>synced-tabs-button</p>
+        </div>
+        <div>
+
+        </div>
+    </body>
+</html>
